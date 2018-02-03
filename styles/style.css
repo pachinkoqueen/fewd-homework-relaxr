@@ -12,7 +12,7 @@ header {
 	background-image: url("../images/header_bg.jpg");
 	background-size: cover;	
 	background-position: center;
-	padding: 50px 100px 200px 100px;
+	padding: 50px 100px 180px 100px;
 }
 
 .logo {
@@ -35,7 +35,7 @@ header {
 	text-align: center;
 	width: 100px;
 	background-color: #f9e42e;
-	padding: 10px 50px 10px 50px;
+	padding: 10px 30px 10px 30px;
 	margin: 20px auto;
 	border-radius: 5px;
 }
@@ -55,6 +55,7 @@ header {
 .benefitscontent {
 	font-weight: 300;
 	font-size: 13px;
+	width:60%;
 	line-height: 18px;
 	padding-bottom: 10px;
 }
