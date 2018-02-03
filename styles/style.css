@@ -59,32 +59,33 @@ header {
 	padding-bottom: 10px;
 }
 
+.benefits li {
+	list-style-type: disc;
+	padding-bottom: 5px;
+	margin-left: 50px;
+}
+
 .testimonial {
 	color: #ffffff;
 	background-image: url("../images/testimonial_bg.jpg");
 	background-size: cover;	
 	background-position: center;
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 }
-
-.benefits ul {
-	list-style-type: disc;
-	margin-left: 50px;
-}
-
 
 .testimonialquote {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 18px;
 	line-height: 24px;
-	margin: 20px 100px;
+	margin: 20px 130px 10px 130px;
 }
 
 .testimonialattribution {
 	font-weight: 600;
 	font-size: 18px;
+	padding-bottom: 20px;
 }
 
 .signup {
@@ -97,7 +98,7 @@ header {
 	font-size: 12px;
 	color: #ffffff;
 	text-align: center;
-	width: 150px;
+	width: 120px;
 	background-color: #033048;
 	padding: 10px 50px 10px 50px;
 	margin: 20px auto;
@@ -107,19 +108,18 @@ header {
 footer {
 	background-color: #121212;
 	text-align: center;
-/*	padding: 50px;
-*/}
+}
 
 .logofooter {
 	font-weight: 800;
 	font-size: 24px;
 	color: #f9e42e;
-	padding: 50px;
+	padding: 20px;
 }
 
-.social {
-/*	float:left;
-*/}
+.social img{
+	padding: 12px;	
+}
 
 .copyright {
 	font-weight: 600;
