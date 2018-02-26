@@ -27,7 +27,7 @@ a {
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 800;
 }
 
@@ -41,6 +41,10 @@ header.home {
 
 /* new styles in class */
 
+body {
+    background-color: lightgrey;
+}
+
 .clearfix:after {
   content: '';
   display: block;
@@ -48,16 +52,19 @@ header.home {
 }
 
 header.blog {
-  background-color: darkblue;
+  background-color: #033048;
+  height: 80px;
 
 }
 
 h1.logo.blog {
   float: left;
+  padding: 10px 0px;
 }
 
 nav {
   float: right;
+  padding: 10px 0px;
 }
 
 nav ul li {
@@ -71,9 +78,16 @@ nav a {
 }
 
 /* main content */
+article h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #033048;
+}
+
 main {
   float:left;
   width: 70%;
+  margin: 40px 0;
 }
 
 main p {
@@ -82,22 +96,72 @@ main p {
 
 main img {
   width: 100%;
+  padding: 10px 0;
 }
 
+.show {
+  text-align: right;
+  font-size: 18px;
+  color: #033048;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.hide {
+  text-align: right;
+  font-size: 18px;
+  color: #033048;
+  font-weight: 600;
+  margin: 15px;
+}
+
+hr {
+  margin: 50px 0;
+}
 
 aside {
   float: right;
   width: 20%;
+  margin: 40px 0;
 }
 
 aside h3 {
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 800;
+  margin: 10px 0;
 }
 
 aside ul {
   font-size: 16px;
   display: block;
   list-style-type: none;
+}
+
+.about {
+  margin: 50px 0;
+}
+.about p {
+  font-size: 16px;
+}
+
+.learnmore {
+  font-size: 18px;
+  font-weight: 600;
+  color: #033048;
+}
+
+
+#adunit p {
+  size: 24px;
+  color: #033048;
+  font-weight: 800;
+  text-align: center;
+  background-color: #ffffff;
+  border: 3px solid darkgrey;
+  width: 180px;
+  height: 400px;
+  margin: 50px 0;
+  padding: 10px;
 }
 
 /* end new styles*/
@@ -171,7 +235,7 @@ aside.home {
   padding: 30px;
   text-align: center
 }
-footer {
+/*footer {
   background: #121212;
   padding: 65px 0 45px;
   text-align: center;
@@ -189,5 +253,46 @@ footer p {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
+}*/
+
+/*copied over footer from original homework stylesheet*/
+
+#signup {
+  background-color: #f9e42e;
+  padding: 10px;
 }
 
+.signupcta {
+  font-weight: 800;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  width: 120px;
+  background-color: #033048;
+  padding: 10px 30px 10px 30px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #121212;
+  text-align: center;
+}
+
+.logofooter {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding: 20px;
+}
+
+.social img{
+  padding: 12px;  
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 9px;
+  color: #ffffff;
+  padding: 20px;
+}
